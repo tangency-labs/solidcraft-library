@@ -1,6 +1,9 @@
 # SolidCraft Library
 
-Reusable resources for SolidCraft, organized around individual editable assets.
+The source structure and authoring resources for future SolidCraft library packs,
+organized around individual editable assets. No releases or installable packs are
+published from this repository at this stage.
+
 The current inventory contains **2,991 records**: appearances, physical material
 references, scientific references, lights, environments and other rendering
 resources. Each record has a stable identity, an editable source folder and its
@@ -75,11 +78,15 @@ independently of this folder hierarchy. Future packs can define their own
 installable membership without changing those identities.
 
 Historical stage records, release manifests and restoration information are kept
-in [archive/legacy](archive/legacy/). Existing release bytes remain available for
-resources that have not been replaced by independently preserved equivalents.
-Use the current index for navigation and the archive for original evidence.
+in [archive/legacy](archive/legacy/). Historical release assets remain at their
+recorded URLs in
+[`0xlillith/solidcraft-render-catalog`](https://github.com/0xlillith/solidcraft-render-catalog/releases)
+for resources that have not been replaced by independently preserved equivalents.
+Those manifests and archives are restoration evidence, not releases of this
+library. Use the current index for navigation and the archive for original evidence.
 
-The working repository remains
-[`0xlillith/solidcraft-render-catalog`](https://github.com/0xlillith/solidcraft-render-catalog).
-[`tangency-labs/solidcraft-library`](https://github.com/tangency-labs/solidcraft-library)
-is the intended future home; this organization does not transfer the repository.
+The canonical home is
+[`tangency-labs/solidcraft-library`](https://github.com/tangency-labs/solidcraft-library).
+The [repository migration record](provenance/repository-migration-20261102.json)
+identifies the original source commit and the preserved history. Releases and
+release tags were not migrated.

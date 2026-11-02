@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-02",
+  "source_repository": "https://github.com/0xlillith/solidcraft-render-catalog",
+  "source_branch": "main",
+  "source_commit": "8f4a2410b3bb5e5cf531e4fa77ea70c55bcc6746",
+  "destination_repository": "https://github.com/tangency-labs/solidcraft-library",
+  "destination_branch": "main",
+  "purpose": "Source structure and authoring resources for future SolidCraft library packs",
+  "source_main_history_preserved": true,
+  "releases_migrated": false,
+  "tags_migrated": false,
+  "historical_release_repository": "https://github.com/0xlillith/solidcraft-render-catalog/releases",
+  "preservation": [
+    "Stable asset identities, definitions, tracked payloads, credits and license notices are unchanged.",
+    "Historical archives, manifests, receipts and restoration URLs retain their original bytes and references.",
+    "Historical release assets remain at their recorded source URLs; no releases or installable packs are published here."
+  ]
+}

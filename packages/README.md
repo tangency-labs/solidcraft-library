@@ -2,6 +2,7 @@
 
 This directory is prepared for explicit selections of resources to distribute
 together when a package contract is agreed. No new packs are built here.
+No releases or installable packs are published from this repository at this stage.
 
 Source folders, categories and download units are independent. A useful package
 includes the files its selected representations need; optional masters and

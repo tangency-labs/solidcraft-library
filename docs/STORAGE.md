@@ -4,6 +4,12 @@ An asset's editable definition, original bytes, new representations and previews
 have different storage needs. The catalog should state which of them exist and
 where their exact bytes can be obtained.
 
+This repository holds the authoring sources and structure for future library
+packs. It currently publishes no releases or installable packs. Historical
+release assets remain at their recorded URLs in
+[`0xlillith/solidcraft-render-catalog`](https://github.com/0xlillith/solidcraft-render-catalog/releases).
+They are restoration inputs; they were not copied into releases of this repository.
+
 ## What is stored where
 
 | Content | Storage and responsibility |
@@ -11,7 +17,7 @@ where their exact bytes can be obtained.
 | Descriptors, definitions, recipes and editable credits | Tracked in Git and reviewed with the asset |
 | Authored files already tracked in Git | Available in a normal clone; retain their receipts |
 | Original working files under `files/` | Restored separately, normally ignored by Git |
-| Original release payloads | Existing immutable releases and member-level restoration receipts |
+| Original release payloads | Historical releases in `0xlillith/solidcraft-render-catalog` and member-level restoration receipts |
 | New large binaries | A deliberately chosen durable location, with exact hashes and verified availability |
 | Generated catalog, indexes, browser and attribution | Rebuildable outputs committed with source changes |
 | Temporary downloads and archive caches | Disposable after durable sources and receipts are verified |
